@@ -3,11 +3,19 @@
   src: url(herculanum.ttf);
 }
 
+body{
+	overflow: hidden;
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: avatarFont,"Segoe UI",Arial,sans-serif;
+}
+
+.displayNone{
+	display: none;
 }
 
 #worldMap{
@@ -18,4 +26,45 @@
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.nationButtonsContainer{
+	width: 206px;
+	float: left;
+}
+.nationButtonsContainer:nth-child(2){
+	float: right;
+}
+.nationButton{
+	width: 206px;
+	height: 210px;
+	margin-bottom: 450px;
+	cursor: pointer;
+}
+
+.nationButton div{
+	width: 206px;
+	height: 210px;
+	position: absolute;
+}
+.nationButton .nationButtonBorder{
+	background-image: url(img/nationIconBorder.png);
+}
+.nationButton .nationButtonDisabled{
+	background-image: url(img/nationIconDisabled.png);
+}
+
+#nationButtonWaterIcon{
+	background-image: url(img/nationIconWater.png);
+}
+#nationButtonEarthIcon{
+	background-image: url(img/nationIconEarth.png);
+}
+#nationButtonFireIcon{
+	background-image: url(img/nationIconFire.png);
+}
+#nationButtonAirIcon{
+	background-image: url(img/nationIconAir.png);
 }
