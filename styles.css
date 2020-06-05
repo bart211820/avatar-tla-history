@@ -1,0 +1,21 @@
+@font-face {
+  font-family: avatarFont;
+  src: url(herculanum.ttf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: avatarFont,"Segoe UI",Arial,sans-serif;
+}
+
+#worldMap{
+	width: 73.4375%;
+	height: 100vh;
+	background-color: red;
+	background-image: url(img/worldMap.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
