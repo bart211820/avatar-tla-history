@@ -19,6 +19,7 @@ body{
 }
 
 #worldMap{
+	float: left;
 	width: 73.4375%;
 	height: 100vh;
 	background-color: red;
@@ -67,4 +68,69 @@ body{
 }
 #nationButtonAirIcon{
 	background-image: url(img/nationIconAir.png);
+}
+
+#timeline{
+	float: right;
+	width: 26.5625%;
+	height: 100vh;
+	background-color: blue;
+	background-image: url(img/timelineBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	overflow-y: scroll;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+#timeline::-webkit-scrollbar {
+  display: none;
+}
+
+.timelineYear{
+	width: 100%;
+	min-height: 5vh;
+	margin-bottom: 20px;
+	/*border: 1px solid black;*/
+}
+.timelineMonth{
+	width: 100%;
+	min-height: 1vh;
+}
+/*.timelineSpring{
+	background-color: pink;
+}
+.timelineSummer{
+	background-color: red;
+}
+.timelineAutumn{
+	background-color: brown;
+}
+.timelineWinter{
+	background-color: white;
+}*/
+
+.timeLineEvent{
+	background-color: #e6c69d;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.timeLineImage{
+	margin: 0px auto;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 15vh;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.timeLineEvent p{
+	font-size: 2vw;
+	text-align: center;
+	
 }
