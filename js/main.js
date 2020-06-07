@@ -1,10 +1,12 @@
 var activeEvent;
-var activeYear;
 
 $(document).ready(function(){
 	constructTimeLine();
 	loadFireTimeLine();
 
+	$("#worldMap").click(function() {
+		document.querySelector('#infoPopUp').className = "displayNone";
+	});
 });
 
 function constructTimeLine() {
@@ -75,18 +77,21 @@ function findEventByID(eventID) {
 function giveTimeLineClickEvents() {
 	$(".timeLineEvent").click(function() {
 		thisEvent = findEventByID(this.id.replace("timeLineEvent_", ""));
-		setActiveYear(thisEvent.year);
-		setActiveEvent(thisEvent.id);
+		setActiveEvent(thisEvent);
 	});
 }
 
-function setActiveYear(year){
-	activeYear = year;
-	showMapPointer();
+function giveMapPointersClickEvents() {
+	$(".mapPointer").click(function() {
+		thisEvent = findEventByID(this.id.replace("mapPointer_", ""));
+		setActiveEvent(thisEvent);
+	});
 }
 
-function setActiveEvent(eventID){
-	activeEvent = event;
+function setActiveEvent(newEvent){
+	activeEvent = newEvent;
+	showMapPointer();
+	showPopUp();
 }
 
 function showMapPointer() {
@@ -96,11 +101,21 @@ function showMapPointer() {
 	}
 	var pointsToShow = [];
 	fEvents.forEach((element) => {
-		if(activeYear == element.year) {
+		if(activeEvent.year == element.year) {
 			pointsToShow.push(element);
 		}
 	});
 	pointsToShow.forEach((element => {
-		$("#worldMap").append('<div class="mapPointer" style="margin-left: ' + element.positionX + '%; margin-top: ' + element.positionY + '%"></div>');
+		$("#worldMap").append('<div id="mapPointer_' + element.id + '" class="mapPointer" style="margin-left: ' + element.positionX + '%; margin-top: ' + element.positionY + '%"></div>');
 	}));
+	giveMapPointersClickEvents();
+}
+
+function showPopUp() {
+	document.querySelector('#infoPopUp h2').innerHTML = activeEvent.name;
+	document.querySelector('#infoPopUp p').innerHTML = activeEvent.description;
+	document.querySelector('#infoPopUpImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
+	setTimeout(function(){
+		document.querySelector('#infoPopUp').className = "";
+	}, 50);
 }
