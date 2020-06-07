@@ -5,9 +5,9 @@ var fEvents = [
 		"name" : "Avatar Roku is born", 
 		"year" : "82BG", 
 		"month" : "?", 
-		"description" : "", 
-		"positionX" : "", 
-		"positionY" : ""
+		"description" : "UwU what's this", 
+		"positionX" : "12", 
+		"positionY" : "21"
 	},
 	{
 		"id" : "f2", 
@@ -15,8 +15,8 @@ var fEvents = [
 		"year" : "82BG", 
 		"month" : "?", 
 		"description" : "", 
-		"positionX" : "", 
-		"positionY" : ""
+		"positionX" : "12.7", 
+		"positionY" : "23"
 	},
 	{
 		"id" : "f3", 
@@ -67,7 +67,7 @@ var fEvents = [
 		"id" : "f8", 
 		"name" : "Sozin uses comet to kill the Air Nomads", 
 		"year" : "0AG", 
-		"month" : "?", 
+		"month" : "summer", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -76,7 +76,7 @@ var fEvents = [
 		"id" : "f9", 
 		"name" : "Fire Prince Azulon is born.", 
 		"year" : "0AG", 
-		"month" : "?", 
+		"month" : "autumn", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -157,7 +157,7 @@ var fEvents = [
 		"id" : "f18", 
 		"name" : "The proclaimed last southern water bender is killed by commander Yon Rha", 
 		"year" : "94AG", 
-		"month" : "?", 
+		"month" : "summer", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -166,7 +166,7 @@ var fEvents = [
 		"id" : "f19", 
 		"name" : "Iroh starts the attack on Ba Sing Se and manages to break through the first wall", 
 		"year" : "94AG", 
-		"month" : "?", 
+		"month" : "autumn", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -175,7 +175,7 @@ var fEvents = [
 		"id" : "f20", 
 		"name" : "Lu Ten dies", 
 		"year" : "95AG", 
-		"month" : "?", 
+		"month" : "autumn", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -184,7 +184,7 @@ var fEvents = [
 		"id" : "f21", 
 		"name" : "Fire lord Azulon was poisoned by his daughter-in-law and dies and Ozai becomes the new Fire Lord", 
 		"year" : "95AG", 
-		"month" : "?", 
+		"month" : "winter", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -202,7 +202,7 @@ var fEvents = [
 		"id" : "f23", 
 		"name" : "Admiral Zhao attacks the Northern Water tribe", 
 		"year" : "100AG", 
-		"month" : "?", 
+		"month" : "spring", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -211,7 +211,7 @@ var fEvents = [
 		"id" : "f24", 
 		"name" : "Fire Princess Azula conquers Ba Sing Se and becomes the new Earth King", 
 		"year" : "100AG", 
-		"month" : "?", 
+		"month" : "summer", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -220,7 +220,7 @@ var fEvents = [
 		"id" : "f25", 
 		"name" : "Attack during the eclipse", 
 		"year" : "100AG", 
-		"month" : "?", 
+		"month" : "autumn", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -229,7 +229,7 @@ var fEvents = [
 		"id" : "f26", 
 		"name" : "Iroh takes back Ba Sing Se", 
 		"year" : "100AG", 
-		"month" : "?", 
+		"month" : "winter", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -238,7 +238,7 @@ var fEvents = [
 		"id" : "f27", 
 		"name" : "Destroy flying thingos", 
 		"year" : "100AG", 
-		"month" : "?", 
+		"month" : "winter", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""
@@ -247,7 +247,7 @@ var fEvents = [
 		"id" : "f28", 
 		"name" : "The avatar returns and ends the great war", 
 		"year" : "100AG", 
-		"month" : "?", 
+		"month" : "winter", 
 		"description" : "", 
 		"positionX" : "", 
 		"positionY" : ""

@@ -1,3 +1,6 @@
+var activeEvent;
+var activeYear;
+
 $(document).ready(function(){
 	constructTimeLine();
 	loadFireTimeLine();
@@ -37,7 +40,7 @@ function convertIntToAvatarYear(year) {
 function loadFireTimeLine() {
 	constructTimeLine();
 	fEvents.forEach((element) => {
-		eventHTML = '<div class="timeLineEvent"><div class="timeLineImage" style="background-image: url(events/' + element.id + '.png)"></div><p>' + element.year +'</p></div>';
+		eventHTML = '<div class="timeLineEvent" id="timeLineEvent_' + element.id + '"><div class="timeLineImage" style="background-image: url(events/' + element.id + '.png)"></div><p>' + element.year +'</p></div>';
 		switch(element.month) {
 			case "spring":
 				document.querySelector('#timelineYear' + element.year + ' .timelineSpring').innerHTML += eventHTML;
@@ -56,52 +59,48 @@ function loadFireTimeLine() {
 		}
 	});
 	removeEmtyTimeLineSlots();
+	giveTimeLineClickEvents();
 }
 
+function findEventByID(eventID) {
+	var eventFound;
+	fEvents.forEach((element) => {
+		if(eventID == element.id) {
+			eventFound = element;
+		}
+	});
+	return eventFound;
+}
 
+function giveTimeLineClickEvents() {
+	$(".timeLineEvent").click(function() {
+		thisEvent = findEventByID(this.id.replace("timeLineEvent_", ""));
+		setActiveYear(thisEvent.year);
+		setActiveEvent(thisEvent.id);
+	});
+}
 
+function setActiveYear(year){
+	activeYear = year;
+	showMapPointer();
+}
 
+function setActiveEvent(eventID){
+	activeEvent = event;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-function loadFireEvents(){
-	var timelineHTML = '';
-	for (i = 0; i < 5; i++) {
-		timelineHTML += '<div class="timelineYear">';
-		fEvents.forEach((element) => {
-
-			if(i == element.index) {
-				switch(element.month) {
-					case "spring":
-						timelineHTML += '<div class="timelineMonth timelineSpring"></div>';
-						break;
-					case "summer":
-						timelineHTML += '<div class="timelineMonth timelineSummer"></div>';
-						break;
-					case "autumn":
-						timelineHTML += '<div class="timelineMonth timelineAutumn"></div>';
-						break;
-					case "winter":
-						timelineHTML += '<div class="timelineMonth timelineWinter"></div>';
-						break;
-					default:
-						// F
-				}
-			}
-		})
-		timelineHTML += '</div>';
+function showMapPointer() {
+	var currentPointers = document.querySelectorAll(".mapPointer");
+	for(i = 0; i < currentPointers.length; i++){
+		currentPointers[i].remove();
 	}
-	console.log(timelineHTML);
-	document.getElementById("timeline").innerHTML = timelineHTML;
+	var pointsToShow = [];
+	fEvents.forEach((element) => {
+		if(activeYear == element.year) {
+			pointsToShow.push(element);
+		}
+	});
+	pointsToShow.forEach((element => {
+		$("#worldMap").append('<div class="mapPointer" style="margin-left: ' + element.positionX + '%; margin-top: ' + element.positionY + '%"></div>');
+	}));
 }
