@@ -518,8 +518,8 @@ var wEvents = [
 		"year" : "100AG", 
 		"month" : "summer", 
 		"description" : "The Moon spirit is killed and in order to save it Yue gives her life and reincarnates as the new moon spirit.", 
-		"positionX" : "34", 
-		"positionY" : "3"
+		"positionX" : "33.6", 
+		"positionY" : "2.7"
 	},
 	{
 		"id" : "w11", 
@@ -549,3 +549,5 @@ var wEvents = [
 		"positionY" : "20.2"
 	}
 ];
+
+var events = [fEvents, eEvents, aEvents, wEvents];

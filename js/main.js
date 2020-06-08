@@ -1,11 +1,29 @@
 var activeEvent;
+var selectedNation = 0;
 
 $(document).ready(function(){
 	constructTimeLine();
-	loadFireTimeLine();
+	loadTimeLine();
 
 	$("#worldMap").click(function() {
 		document.querySelector('#infoPopUp').className = "displayNone";
+	});
+
+	$("#nattionButtonFire").click(function() {
+		selectedNation = 0;
+		loadTimeLine();
+	});
+	$("#nattionButtonEarth").click(function() {
+		selectedNation = 1;
+		loadTimeLine();
+	});
+	$("#nattionButtonAir").click(function() {
+		selectedNation = 2;
+		loadTimeLine();
+	});
+	$("#nattionButtonWater").click(function() {
+		selectedNation = 3;
+		loadTimeLine();
 	});
 });
 
@@ -39,9 +57,9 @@ function convertIntToAvatarYear(year) {
 	}
 }
 
-function loadFireTimeLine() {
+function loadTimeLine() {
 	constructTimeLine();
-	fEvents.forEach((element) => {
+	events[selectedNation].forEach((element) => {
 		eventHTML = '<div class="timeLineEvent" id="timeLineEvent_' + element.id + '"><div class="timeLineImage" style="background-image: url(events/' + element.id + '.png)"></div><p>' + element.year +'</p></div>';
 		switch(element.month) {
 			case "spring":
@@ -66,7 +84,7 @@ function loadFireTimeLine() {
 
 function findEventByID(eventID) {
 	var eventFound;
-	fEvents.forEach((element) => {
+	events[selectedNation].forEach((element) => {
 		if(eventID == element.id) {
 			eventFound = element;
 		}
@@ -100,7 +118,7 @@ function showMapPointer() {
 		currentPointers[i].remove();
 	}
 	var pointsToShow = [];
-	fEvents.forEach((element) => {
+	events[selectedNation].forEach((element) => {
 		if(activeEvent.year == element.year) {
 			pointsToShow.push(element);
 		}
