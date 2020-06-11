@@ -460,7 +460,7 @@ var wEvents = [
 	},
 	{
 		"id" : "w4", 
-		"name" : "Fire Bations starts attacking the Southern Water tribe", 
+		"name" : "Fire Nations starts attacking the Southern Water tribe", 
 		"year" : "40AG", 
 		"month" : "?", 
 		"description" : "The Fire Nation begins attacking the Southern Water Tribe and captured or killed as many Southern waterbenders as they could.", 

@@ -9,23 +9,73 @@ $(document).ready(function(){
 		document.querySelector('#infoPopUp').className = "displayNone";
 	});
 
-	$("#nattionButtonFire").click(function() {
+	$("#buttonFire").click(function() {
 		selectedNation = 0;
 		loadTimeLine();
+		changeLayoutColors("F");
 	});
-	$("#nattionButtonEarth").click(function() {
+	$("#buttonEarth").click(function() {
 		selectedNation = 1;
 		loadTimeLine();
+		changeLayoutColors("E");
 	});
-	$("#nattionButtonAir").click(function() {
+	$("#buttonAir").click(function() {
 		selectedNation = 2;
 		loadTimeLine();
+		changeLayoutColors("A");
 	});
-	$("#nattionButtonWater").click(function() {
+	$("#buttonWater").click(function() {
 		selectedNation = 3;
 		loadTimeLine();
+		changeLayoutColors("W");
 	});
 });
+
+function changeLayoutColors(nationLetter) {
+	document.getElementById("worldMap").style = "background-image: url(img/worldmap" + nationLetter + ".png)";
+	document.getElementById("buttonsHolder").style = "background-image: url(img/buttonboxBackground" + nationLetter + ".png)";
+	document.getElementById("infoBox").style = "background-image: url(img/infoboxBackground" + nationLetter + ".png)";
+	document.getElementById("timeline").style = "background-image: url(img/timelineBackground" + nationLetter + ".png)";
+
+	var backgroundColor = "";
+	switch(nationLetter) {
+		case "F":
+			backgroundColor = "#fda979";
+			document.getElementById("buttonFire").style = "";
+			document.getElementById("buttonWater").style = "background-image: url(img/nationbuttonWd.png)";
+			document.getElementById("buttonEarth").style = "background-image: url(img/nationbuttonEd.png)";
+			document.getElementById("buttonAir").style = "background-image: url(img/nationbuttonAd.png)";
+			break;
+		case "E":
+			backgroundColor = "#ffffd3";
+			document.getElementById("buttonFire").style = "background-image: url(img/nationbuttonFd.png)";
+			document.getElementById("buttonWater").style = "background-image: url(img/nationbuttonWd.png)";
+			document.getElementById("buttonEarth").style = "";
+			document.getElementById("buttonAir").style = "background-image: url(img/nationbuttonAd.png)";
+			break;
+		case "A":
+			backgroundColor = "#f2f2f2";
+			document.getElementById("buttonFire").style = "background-image: url(img/nationbuttonFd.png)";
+			document.getElementById("buttonWater").style = "background-image: url(img/nationbuttonWd.png)";
+			document.getElementById("buttonEarth").style = "background-image: url(img/nationbuttonEd.png)";
+			document.getElementById("buttonAir").style = "";
+			break;
+		case "W":
+			backgroundColor = "#e3f3ff";
+			document.getElementById("buttonFire").style = "background-image: url(img/nationbuttonFd.png)";
+			document.getElementById("buttonWater").style = "";
+			document.getElementById("buttonEarth").style = "background-image: url(img/nationbuttonEd.png)";
+			document.getElementById("buttonAir").style = "background-image: url(img/nationbuttonAd.png)";
+			break;
+		default:
+			backgroundColor = "#E6C69D";
+	}
+
+	var eventDivs = document.querySelectorAll(".timeLineEvent");
+	for (i = 0; i < eventDivs.length; i++) {
+		eventDivs[i].style = "background-color: " + backgroundColor + ";";
+	}
+}
 
 function constructTimeLine() {
 	var timelineHTML = '';
@@ -37,7 +87,7 @@ function constructTimeLine() {
 		timelineHTML += '<div class="timelineMonth timelineWinter"></div>';
 		timelineHTML += '</div>';
 	}
-	document.getElementById("timeline").innerHTML = timelineHTML;
+	document.getElementById("timelineEventsContainer").innerHTML = timelineHTML;
 }
 
 function removeEmtyTimeLineSlots() {

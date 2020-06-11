@@ -5,6 +5,7 @@
 
 body{
 	overflow: hidden;
+	background-color: #E6C69D;
 }
 
 *{
@@ -18,16 +19,18 @@ body{
 	display: none;
 }
 
-#worldMap{
+#leftContainer{
 	float: left;
-	width: 73.4375%;
+	width: 80%;
 	height: 100vh;
-	background-color: red;
+}
+
+#worldMap{
+	height: 65vh;
 	background-image: url(img/worldMap.png);
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	padding: 30px;
 	overflow: hidden;
 }
 
@@ -40,61 +43,80 @@ body{
 	cursor: pointer;
 }
 
-.nationButtonsContainer{
-	width: 206px;
+#infoBox{
 	float: left;
+	background-image: url(img/infoboxBackground.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 75%;
+	height: 35vh;
 }
-.nationButtonsContainer:nth-child(2){
+
+#buttonsHolder{
 	float: right;
+	background-image: url(img/buttonboxBackground.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 35vh;
 }
-.nationButton{
-	width: 206px;
-	height: 210px;
-	margin-bottom: 450px;
+#buttonsHolder div{
+	float: left;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 134px;
+	height: 134px;
 	cursor: pointer;
 }
+#buttonWater{
+	margin-left: 32px;
+	margin-top: 20px;
+	background-image: url(img/nationbuttonW.png);
+}
+#buttonEarth{
+	margin-left: 52px;
+	margin-top: 20px;
+	background-image: url(img/nationbuttonE.png);
+}
+#buttonFire{
+	margin-left: 32px;
+	margin-top: 20px;
+	background-image: url(img/nationbuttonF.png);
+}
+#buttonAir{
+	margin-left: 52px;
+	margin-top: 20px;
+	background-image: url(img/nationbuttonA.png);
+}
 
-.nationButton div{
-	width: 206px;
-	height: 210px;
-	position: absolute;
-}
-.nationButton .nationButtonBorder{
-	background-image: url(img/nationIconBorder.png);
-}
-.nationButton .nationButtonDisabled{
-	background-image: url(img/nationIconDisabled.png);
-}
-
-#nationButtonWaterIcon{
-	background-image: url(img/nationIconWater.png);
-}
-#nationButtonEarthIcon{
-	background-image: url(img/nationIconEarth.png);
-}
-#nationButtonFireIcon{
-	background-image: url(img/nationIconFire.png);
-}
-#nationButtonAirIcon{
-	background-image: url(img/nationIconAir.png);
-}
 
 #timeline{
 	float: right;
-	width: 26.5625%;
+	width: 20%;
 	height: 100vh;
 	background-color: blue;
 	background-image: url(img/timelineBackground.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	overflow-y: scroll;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 70px;
-	padding-bottom: 80px;
+	padding-bottom: 70px;
 }
-#timeline::-webkit-scrollbar {
+#timelineEventsContainer{
+	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
+	background-image: url(img/timelineLine.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#timelineEventsContainer::-webkit-scrollbar {
   display: none;
 }
 
@@ -132,7 +154,7 @@ body{
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	width: 50%;
+	width: 64%;
 	height: 15vh;
 	border: 1px solid black;
 	cursor: pointer;
@@ -141,39 +163,4 @@ body{
 .timeLineEvent p{
 	font-size: 2vw;
 	text-align: center;
-}
-
-#infoPopUp{
-	position: absolute;
-	background-color: #e6c69d;
-	border-radius: 10px;
-	border: 3px solid #BEA27B;
-	width: 26%;
-	height: 30vh;
-	padding: 10px;
-	overflow-y: scroll;
-}
-#infoPopUp::-webkit-scrollbar {
-  display: none;
-}
-
-#infoPopUp h2{
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-#infoPopUp p{
-	text-align: left;
-	font-family: "Segoe UI",Arial,sans-serif;
-	margin-bottom: 15px;
-}
-
-#infoPopUpImage{
-	width: 55%;
-    height: 17vh;
-	border: 1px solid black;
-	margin: 0px auto;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
 }
