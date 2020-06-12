@@ -5,8 +5,8 @@ var fEvents = [
 		"year" : "82BG", 
 		"month" : "?", 
 		"description" : "The new avatar named Roku was born into the fire nation.", 
-		"positionX" : "12", 
-		"positionY" : "21"
+		"positionX" : "24.5", 
+		"positionY" : "14.5"
 	},
 	{
 		"id" : "f2", 
@@ -14,8 +14,8 @@ var fEvents = [
 		"year" : "82BG", 
 		"month" : "?", 
 		"description" : "The current Fire Lord gets a son and names him Sozin. Making Sozin the new throne prince.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f3", 
@@ -23,8 +23,8 @@ var fEvents = [
 		"year" : "58BG", 
 		"month" : "?", 
 		"description" : "Sozin becomes the new Fire Lord at the age of 24 after his father's death.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f4", 
@@ -32,8 +32,8 @@ var fEvents = [
 		"year" : "40BG", 
 		"month" : "?", 
 		"description" : 'Fire lord Sozin starts expanding his empire by taking control over a small area of the earth kingdom in order to make a "brighter future" possible.', 
-		"positionX" : "23", 
-		"positionY" : "17"
+		"positionX" : "31.9", 
+		"positionY" : "11.8"
 	},
 	{
 		"id" : "f5", 
@@ -41,8 +41,8 @@ var fEvents = [
 		"year" : "37BG", 
 		"month" : "?", 
 		"description" : "Avatar Roku discovered the Fire Nation colonies and makes Sozin return them to the Earth Kingdom after he defeats him in battle.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f6", 
@@ -50,8 +50,8 @@ var fEvents = [
 		"year" : "12BG", 
 		"month" : "?", 
 		"description" : "Roku's home island was consumed in a violent volcanic eruption. Roku attempted to contain the volcanic destruction, but ultimately died by succumbing to the poisonous gas.", 
-		"positionX" : "25", 
-		"positionY" : "22"
+		"positionX" : "33.6", 
+		"positionY" : "15.3"
 	},
 	{
 		"id" : "f7", 
@@ -59,17 +59,17 @@ var fEvents = [
 		"year" : "11BG", 
 		"month" : "?", 
 		"description" : "After the death of Avatar Roku, Sozin continued with his plan to conquer the world and begins the Great War.", 
-		"positionX" : "23", 
-		"positionY" : "17"
+		"positionX" : "31.9", 
+		"positionY" : "11.8"
 	},
 	{
 		"id" : "f8", 
-		"name" : "Sozin uses comet to kill the Air Nomads", 
+		"name" : "Sozin kills the Air Nomads", 
 		"year" : "0AG", 
 		"month" : "summer", 
 		"description" : "Sozin used the power of a comet to enhance the abilities of his firebending army and launched a genocidal attack on the Air Nomads in an attempt to kill the new Avatar.", 
-		"positionX" : "29", 
-		"positionY" : "35"
+		"positionX" : "35.8", 
+		"positionY" : "23.7"
 	},
 	{
 		"id" : "f9", 
@@ -77,8 +77,8 @@ var fEvents = [
 		"year" : "0AG", 
 		"month" : "autumn", 
 		"description" : "Fire lord Sozin has a child and names him Azulon.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f10", 
@@ -86,8 +86,8 @@ var fEvents = [
 		"year" : "10AG", 
 		"month" : "?", 
 		"description" : "Although the defending earthbenders outnumbered the Fire Nation Army, Sozin was able to use his enemies' downwind position and recent drought to burn Han Tui's defenses in minutes.", 
-		"positionX" : "36", 
-		"positionY" : "7"
+		"positionX" : "40", 
+		"positionY" : "5.6"
 	},
 	{
 		"id" : "f11", 
@@ -95,17 +95,17 @@ var fEvents = [
 		"year" : "20AG", 
 		"month" : "?", 
 		"description" : "Fire lord Sozin dies peacefully in his sleep. Azulon becomes the new Fire lord shortly after.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f12", 
-		"name" : "Fire Bations starts attacking the Southern Water tribe", 
+		"name" : "Fire Nations starts attacking the Southern Water tribe", 
 		"year" : "40AG", 
 		"month" : "?", 
 		"description" : "The Fire Nation begins attacking the Southern Water Tribe and captured or killed as many Southern waterbenders as they could.", 
-		"positionX" : "29", 
-		"positionY" : "41"
+		"positionX" : "35.7", 
+		"positionY" : "27.6"
 	},
 	{
 		"id" : "f13", 
@@ -113,8 +113,8 @@ var fEvents = [
 		"year" : "55AG", 
 		"month" : "?", 
 		"description" : "Fire lord Azulon's first child is born and names him Iroh, making him the new throne prince.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f14", 
@@ -122,8 +122,8 @@ var fEvents = [
 		"year" : "60AG", 
 		"month" : "?", 
 		"description" : "Fire lord Azulon's second child is born and names him Ozai.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f15", 
@@ -131,8 +131,8 @@ var fEvents = [
 		"year" : "77AG", 
 		"month" : "?", 
 		"description" : "Fire Prince's Iroh gets a son and names him Lu Ten.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f16", 
@@ -140,8 +140,8 @@ var fEvents = [
 		"year" : "83AG", 
 		"month" : "?", 
 		"description" : "Fire Prince's Ozai gets a son and names him Zuko.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f17", 
@@ -149,8 +149,8 @@ var fEvents = [
 		"year" : "85AG", 
 		"month" : "?", 
 		"description" : "Fire Prince's Ozai gets a daughter and names her Azula, after his father's name.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f18", 
@@ -158,8 +158,8 @@ var fEvents = [
 		"year" : "94AG", 
 		"month" : "summer", 
 		"description" : "Commander Yan Rha kills Kya from the Southern Water Tribe, the proclaimed last southern water bender.", 
-		"positionX" : "29", 
-		"positionY" : "41"
+		"positionX" : "35.7", 
+		"positionY" : "27.6"
 	},
 	{
 		"id" : "f19", 
@@ -167,8 +167,8 @@ var fEvents = [
 		"year" : "94AG", 
 		"month" : "autumn", 
 		"description" : "Fire prince Iroh, now a renowned Fire Nation General, starts attacking Ba Sing Se, the capital of the Earth Kingdom. He is able to breach the Outer Wall.", 
-		"positionX" : "50", 
-		"positionY" : "13"
+		"positionX" : "49.4", 
+		"positionY" : "9.8"
 	},
 	{
 		"id" : "f20", 
@@ -176,8 +176,8 @@ var fEvents = [
 		"year" : "95AG", 
 		"month" : "autumn", 
 		"description" : "Lu Ten dies during the fight at Ba Sing Se. Because of grief Iroh abandoned the battle shortly after.", 
-		"positionX" : "50", 
-		"positionY" : "12.6"
+		"positionX" : "49.4", 
+		"positionY" : "9.4"
 	},
 	{
 		"id" : "f21", 
@@ -185,8 +185,8 @@ var fEvents = [
 		"year" : "95AG", 
 		"month" : "winter", 
 		"description" : "Fire Prince Ozai's wife Ursa poisoned Fire Lord Azulon in order to protect her son. Ozai becomes the new Fire Lord and Ursa is banned from the Fire Nation.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f22", 
@@ -194,8 +194,8 @@ var fEvents = [
 		"year" : "96AG", 
 		"month" : "?", 
 		"description" : "Fire prince Zuko is banned from the Fire Nation after insulting his father.", 
-		"positionX" : "12.7", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f23", 
@@ -203,7 +203,7 @@ var fEvents = [
 		"year" : "100AG", 
 		"month" : "spring", 
 		"description" : "Admiral Zhao assaults the Northern Water Tribe in order to kill the Moon Spirit but is ultimately killed himself.", 
-		"positionX" : "34", 
+		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
@@ -212,8 +212,8 @@ var fEvents = [
 		"year" : "100AG", 
 		"month" : "summer", 
 		"description" : "Fire princess Azula invades Ba Sing Se, disguised as a friend of the Avatar. She manages to defeat Kuei and becomes the new Earth King.", 
-		"positionX" : "50", 
-		"positionY" : "12"
+		"positionX" : "49.7", 
+		"positionY" : "8.9"
 	},
 	{
 		"id" : "f25", 
@@ -221,8 +221,8 @@ var fEvents = [
 		"year" : "100AG", 
 		"month" : "autumn", 
 		"description" : "The remainders of the Water Tribe and Earth Kingdom attack the capital of the Fire Nation during an eclipse, but eventually fail to win the battle.", 
-		"positionX" : "12.8", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "f26", 
@@ -230,8 +230,8 @@ var fEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "Iroh and the Order of the White Lotus attack back Ba Sing Se and return it to the Earth Kingdom.", 
-		"positionX" : "50", 
-		"positionY" : "12"
+		"positionX" : "49.4", 
+		"positionY" : "8.9"
 	},
 	{
 		"id" : "f27", 
@@ -239,8 +239,8 @@ var fEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "Fire Lord Ozai orders all the Fire Nation airship to burn down Wulong Forest and the rest of the Earth Kingdom.", 
-		"positionX" : "33", 
-		"positionY" : "20"
+		"positionX" : "38.5", 
+		"positionY" : "14"
 	},
 	{
 		"id" : "f28", 
@@ -248,8 +248,8 @@ var fEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "The avatar returns and defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
-		"positionX" : "33.4", 
-		"positionY" : "20.2"
+		"positionX" : "39", 
+		"positionY" : "14.7"
 	}
 ];
 
@@ -260,8 +260,8 @@ var eEvents = [
 		"year" : "82BG", 
 		"month" : "?", 
 		"description" : "Avatar Kyoshi dies at the age of 230.", 
-		"positionX" : "36", 
-		"positionY" : "31"
+		"positionX" : "40.4", 
+		"positionY" : "20.3"
 	},
 	{
 		"id" : "e2", 
@@ -269,8 +269,8 @@ var eEvents = [
 		"year" : "40BG", 
 		"month" : "?", 
 		"description" : 'The Fire Nation starts claiming territories on the north-east side of the Earth Kingdom.', 
-		"positionX" : "23", 
-		"positionY" : "17"
+		"positionX" : "31.9", 
+		"positionY" : "11.8"
 	},
 	{
 		"id" : "e3", 
@@ -278,8 +278,8 @@ var eEvents = [
 		"year" : "25BG", 
 		"month" : "?", 
 		"description" : "The Fire Colonies are returned to the Earth Kingdom by demand from Avatar Roku.", 
-		"positionX" : "23", 
-		"positionY" : "17"
+		"positionX" : "31.9", 
+		"positionY" : "11.8"
 	},
 	{
 		"id" : "e4", 
@@ -287,8 +287,8 @@ var eEvents = [
 		"year" : "11BG", 
 		"month" : "?", 
 		"description" : "The Fire Nation reclaims the previously returned Fire Colonies.", 
-		"positionX" : "23", 
-		"positionY" : "17"
+		"positionX" : "31.9", 
+		"positionY" : "11.8"
 	},
 	{
 		"id" : "e5", 
@@ -296,8 +296,8 @@ var eEvents = [
 		"year" : "10AG", 
 		"month" : "?", 
 		"description" : "Although the defending earthbenders outnumbered the Fire Nation Army, Sozin was able to use his enemies' downwind position and recent drought to burn Han Tui's defenses in minutes.", 
-		"positionX" : "36", 
-		"positionY" : "7"
+		"positionX" : "40", 
+		"positionY" : "5.6"
 	},
 	{
 		"id" : "e6", 
@@ -305,8 +305,8 @@ var eEvents = [
 		"year" : "79AG", 
 		"month" : "?", 
 		"description" : "The 51st Earth King dies and Kuei became one of the youngest Earth Kings in history at the age of 4.", 
-		"positionX" : "50", 
-		"positionY" : "12"
+		"positionX" : "49.4", 
+		"positionY" : "8.9"
 	},
 	{
 		"id" : "e7", 
@@ -314,8 +314,8 @@ var eEvents = [
 		"year" : "94AG", 
 		"month" : "autumn", 
 		"description" : "Capital of the Earth Kingdom, Ba Sing Se gets attacked by the Fire Nation. Lead by Prince Iroh they are able to break through the first wall.", 
-		"positionX" : "50", 
-		"positionY" : "13"
+		"positionX" : "49.4", 
+		"positionY" : "9.8"
 	},
 	{
 		"id" : "e8", 
@@ -323,8 +323,8 @@ var eEvents = [
 		"year" : "95AG", 
 		"month" : "?", 
 		"description" : "The Fire Nation stops their attack on Ba Sing Se and Prince Iroh and his troops return home.", 
-		"positionX" : "50", 
-		"positionY" : "13"
+		"positionX" : "49.4", 
+		"positionY" : "9.8"
 	},
 	{
 		"id" : "e9", 
@@ -332,8 +332,8 @@ var eEvents = [
 		"year" : "99AG", 
 		"month" : "?", 
 		"description" : "Wan Shi Tong's Library disappears from the desert.", 
-		"positionX" : "47", 
-		"positionY" : "24"
+		"positionX" : "47.5", 
+		"positionY" : "16.5"
 	},
 	{
 		"id" : "e10", 
@@ -341,8 +341,8 @@ var eEvents = [
 		"year" : "99AG", 
 		"month" : "?", 
 		"description" : "The Fire nation conquers Omashu, one of the last remaining strongholds of the Earth Kingdom.", 
-		"positionX" : "40.6", 
-		"positionY" : "26.3"
+		"positionX" : "43.5", 
+		"positionY" : "17.9"
 	},
 	{
 		"id" : "e11", 
@@ -350,8 +350,8 @@ var eEvents = [
 		"year" : "100AG", 
 		"month" : "summer", 
 		"description" : "Fire princess Azula invades Ba Sing Se, disguised as a friend of the Avatar. She manages to defeat Kuei and becomes the new Earth King.", 
-		"positionX" : "50", 
-		"positionY" : "12"
+		"positionX" : "49.7", 
+		"positionY" : "8.9"
 	},
 	{
 		"id" : "e12", 
@@ -359,8 +359,8 @@ var eEvents = [
 		"year" : "100AG", 
 		"month" : "autumn", 
 		"description" : "The remainders of the Water Tribe and Earth Kingdom attack the capital of the Fire Nation during an eclipse, but eventually fail to win the battle.", 
-		"positionX" : "12.8", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "e13", 
@@ -368,8 +368,8 @@ var eEvents = [
 		"year" : "100AG", 
 		"month" : "autumn", 
 		"description" : "King Bumi single handedly conquers Omashu during the eclipse and returns it to the Earth Kingdom.", 
-		"positionX" : "40.6", 
-		"positionY" : "26.3"
+		"positionX" : "43.5", 
+		"positionY" : "17.9"
 	},
 	{
 		"id" : "e14", 
@@ -377,8 +377,8 @@ var eEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "Iroh and the Order of the White Lotus attack back Ba Sing Se and return it to the Earth Kingdom.", 
-		"positionX" : "50", 
-		"positionY" : "12"
+		"positionX" : "49.4", 
+		"positionY" : "8.9"
 	},
 	{
 		"id" : "e15", 
@@ -386,8 +386,8 @@ var eEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "The avatar returns and defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
-		"positionX" : "33.4", 
-		"positionY" : "20.2"
+		"positionX" : "39", 
+		"positionY" : "14.7"
 	}
 ];
 
@@ -398,8 +398,8 @@ var aEvents = [
 		"year" : "12BG", 
 		"month" : "?", 
 		"description" : "The new avatar named Aang was born into the Air Nomads.", 
-		"positionX" : "29", 
-		"positionY" : "35"
+		"positionX" : "35.8", 
+		"positionY" : "23.7"
 	},
 	{
 		"id" : "a2", 
@@ -407,8 +407,8 @@ var aEvents = [
 		"year" : "1BG", 
 		"month" : "?", 
 		"description" : "Aang was ordered to leave the Southern Air Temple. Afraid and confused, the young airbender ran away with his flying bison, Appa", 
-		"positionX" : "29", 
-		"positionY" : "35"
+		"positionX" : "35.8", 
+		"positionY" : "23.7"
 	},
 	{
 		"id" : "a3", 
@@ -416,8 +416,8 @@ var aEvents = [
 		"year" : "0AG", 
 		"month" : "summer", 
 		"description" : "the Fire Nation attacked the Air Temples in a preemptive strike and exterminated the airbending population though failed to track down the Avatar.", 
-		"positionX" : "29", 
-		"positionY" : "35"
+		"positionX" : "35.8", 
+		"positionY" : "23.7"
 	},
 	{
 		"id" : "a4", 
@@ -425,8 +425,8 @@ var aEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "The last air bender returns and defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
-		"positionX" : "33.4", 
-		"positionY" : "20.2"
+		"positionX" : "39", 
+		"positionY" : "14.7"
 	}
 ];
 
@@ -437,7 +437,7 @@ var wEvents = [
 		"year" : "2AG", 
 		"month" : "?", 
 		"description" : "The Fire Nation starts attacking the Northern Water Tribe.", 
-		"positionX" : "34", 
+		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
@@ -446,7 +446,7 @@ var wEvents = [
 		"year" : "3AG", 
 		"month" : "?", 
 		"description" : "The northern water tribe constructs a wall of ice around city for protection", 
-		"positionX" : "34", 
+		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
@@ -455,7 +455,7 @@ var wEvents = [
 		"year" : "15AG", 
 		"month" : "?", 
 		"description" : "The defences of the Northern Water Tribe are too strong and the Fire nation stops trying to invade.", 
-		"positionX" : "34", 
+		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
@@ -464,8 +464,8 @@ var wEvents = [
 		"year" : "40AG", 
 		"month" : "?", 
 		"description" : "The Fire Nation begins attacking the Southern Water Tribe and captured or killed as many Southern waterbenders as they could.", 
-		"positionX" : "29", 
-		"positionY" : "41"
+		"positionX" : "35.7", 
+		"positionY" : "27.6"
 	},
 	{
 		"id" : "w5", 
@@ -473,8 +473,8 @@ var wEvents = [
 		"year" : "45AG", 
 		"month" : "?", 
 		"description" : "Southern Water tribe capital city was largely abandoned, and connection with the northern tribe was lost.", 
-		"positionX" : "29", 
-		"positionY" : "41"
+		"positionX" : "35.7", 
+		"positionY" : "27.6"
 	},
 	{
 		"id" : "w6", 
@@ -482,7 +482,7 @@ var wEvents = [
 		"year" : "84AG", 
 		"month" : "?", 
 		"description" : "Princess of the Northern water tribe Yue is born. She was greatly ill however so The Moon Spirit gifted her with part of its own life force, saving her life.", 
-		"positionX" : "34", 
+		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
@@ -491,8 +491,8 @@ var wEvents = [
 		"year" : "94AG", 
 		"month" : "summer", 
 		"description" : "Commander Yan Rha kills Kya from the Southern Water Tribe, the proclaimed last southern water bender.", 
-		"positionX" : "29", 
-		"positionY" : "41"
+		"positionX" : "35.7", 
+		"positionY" : "27.6"
 	},
 	{
 		"id" : "w8", 
@@ -500,8 +500,8 @@ var wEvents = [
 		"year" : "99AG", 
 		"month" : "?", 
 		"description" : "2 children from the Southern Water Tribe discover avatar Aang trapped in an iceberg.", 
-		"positionX" : "30", 
-		"positionY" : "41"
+		"positionX" : "36.7", 
+		"positionY" : "27.4"
 	},
 	{
 		"id" : "w9", 
@@ -509,7 +509,7 @@ var wEvents = [
 		"year" : "100AG", 
 		"month" : "spring", 
 		"description" : "Avatar Aang visits the Northern Water tribe in search for a water bending teacher.", 
-		"positionX" : "34", 
+		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
@@ -518,7 +518,7 @@ var wEvents = [
 		"year" : "100AG", 
 		"month" : "summer", 
 		"description" : "The Moon spirit is killed and in order to save it Yue gives her life and reincarnates as the new moon spirit.", 
-		"positionX" : "33.6", 
+		"positionX" : "38.6", 
 		"positionY" : "2.7"
 	},
 	{
@@ -527,7 +527,7 @@ var wEvents = [
 		"year" : "100AG", 
 		"month" : "summer", 
 		"description" : "Admiral Zhao attacks the Northern Water tribe but avatar Aang protects it with the help of the Ocean Spirit.", 
-		"positionX" : "34", 
+		"positionX" : "40", 
 		"positionY" : "3.6"
 	},
 	{
@@ -536,8 +536,8 @@ var wEvents = [
 		"year" : "100AG", 
 		"month" : "autumn", 
 		"description" : "The remainders of the Water Tribe and Earth Kingdom attack the capital of the Fire Nation during an eclipse, but eventually fail to win the battle.", 
-		"positionX" : "12.8", 
-		"positionY" : "23"
+		"positionX" : "25.2", 
+		"positionY" : "15.6"
 	},
 	{
 		"id" : "w13", 
@@ -545,8 +545,8 @@ var wEvents = [
 		"year" : "100AG", 
 		"month" : "winter", 
 		"description" : "The avatar defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
-		"positionX" : "33.4", 
-		"positionY" : "20.2"
+		"positionX" : "39", 
+		"positionY" : "14.7"
 	}
 ];
 

@@ -51,6 +51,33 @@ body{
 	background-repeat: no-repeat;
 	width: 75%;
 	height: 35vh;
+	padding-top: 41px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+#infoText{
+	overflow-y: scroll;
+	height: 83%;
+	width: 62%;
+	float: left;
+}
+#infoText h2{
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+#infoText p{
+	margin-bottom: 5px;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+#infoImage{
+	background-image: url(events/f21.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	float: right;
+	width: 36%;
+	height: 83%;
 }
 
 #buttonsHolder{

@@ -180,10 +180,7 @@ function showMapPointer() {
 }
 
 function showPopUp() {
-	document.querySelector('#infoPopUp h2').innerHTML = activeEvent.name;
-	document.querySelector('#infoPopUp p').innerHTML = activeEvent.description;
-	document.querySelector('#infoPopUpImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
-	setTimeout(function(){
-		document.querySelector('#infoPopUp').className = "";
-	}, 50);
+	var newText = '<h2>' + activeEvent.name + '</h2>' + activeEvent.description;
+	document.querySelector('#infoText').innerHTML = newText;
+	document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
 }
