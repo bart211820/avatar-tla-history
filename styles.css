@@ -79,7 +79,6 @@ body{
 	font-family: "Segoe UI",Arial,sans-serif;
 }
 #infoImage{
-	background-image: url(events/f21.png);
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;

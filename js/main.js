@@ -5,25 +5,33 @@ $(document).ready(function(){
 	constructTimeLine();
 	loadTimeLine();
 
+	$("#worldMap").click(function() {
+		hidePopUp();
+	});
+
 	$("#buttonFire").click(function() {
 		selectedNation = 0;
 		loadTimeLine();
 		changeLayoutColors("F");
+		hidePopUp();
 	});
 	$("#buttonEarth").click(function() {
 		selectedNation = 1;
 		loadTimeLine();
 		changeLayoutColors("E");
+		hidePopUp();
 	});
 	$("#buttonAir").click(function() {
 		selectedNation = 2;
 		loadTimeLine();
 		changeLayoutColors("A");
+		hidePopUp();
 	});
 	$("#buttonWater").click(function() {
 		selectedNation = 3;
 		loadTimeLine();
 		changeLayoutColors("W");
+		hidePopUp();
 	});
 });
 
@@ -179,6 +187,7 @@ function showPopUp() {
 	var newText = '<h2>' + activeEvent.name + '</h2>' + activeEvent.description;
 	document.querySelector('#infoText').innerHTML = newText;
 	document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
+	document.getElementById('mapArrow').className = "";
 
 	var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 20px";
 	var topValue = activeEvent.positionY + "% + 20px";
@@ -202,4 +211,10 @@ function showPopUp() {
 	}
 
 	document.getElementById("mapArrow").style = "background-image: url(img/arrowUp" + arrowValue + ".png);height: calc(" + heightValue + "); margin-top: calc(" + topValue + "); margin-left: calc(" + leftValue + ");";
+}
+
+function hidePopUp() {
+	document.querySelector('#infoText').innerHTML = "";
+	document.querySelector('#infoImage').style = '';
+	document.getElementById('mapArrow').className = "displayNone";
 }
