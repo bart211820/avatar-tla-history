@@ -79,7 +79,7 @@ function changeLayoutColors(nationLetter) {
 			backgroundColor = "#E6C69D";
 	}
 
-	var eventDivs = document.querySelectorAll(".timeLineEvent");
+	var eventDivs = document.querySelectorAll(".timelineYear");
 	for (i = 0; i < eventDivs.length; i++) {
 		eventDivs[i].style = "background-color: " + backgroundColor + ";";
 	}
@@ -89,10 +89,11 @@ function constructTimeLine() {
 	var timelineHTML = '';
 	for (i = -82; i < 101; i++) {
 		timelineHTML += '<div class="timelineYear" id="timelineYear' + convertIntToAvatarYear(i) + '">';
-		timelineHTML += '<div class="timelineMonth timelineSpring"></div>';
-		timelineHTML += '<div class="timelineMonth timelineSummer"></div>';
-		timelineHTML += '<div class="timelineMonth timelineAutumn"></div>';
-		timelineHTML += '<div class="timelineMonth timelineWinter"></div>';
+		timelineHTML += '<span class="timelineYearNumber">' + convertIntToAvatarYear(i) + '</span>';
+		timelineHTML += '<div class="timelineMonth timelineSpring"><div class="timelineMonthNumber">Spring</div></div>';
+		timelineHTML += '<div class="timelineMonth timelineSummer"><div class="timelineMonthNumber">Summer</div></div>';
+		timelineHTML += '<div class="timelineMonth timelineAutumn"><div class="timelineMonthNumber">Autumn</div></div>';
+		timelineHTML += '<div class="timelineMonth timelineWinter"><div class="timelineMonthNumber">Winter</div></div>';
 		timelineHTML += '</div>';
 	}
 	document.getElementById("timelineEventsContainer").innerHTML = timelineHTML;
@@ -101,8 +102,11 @@ function constructTimeLine() {
 function removeEmtyTimeLineSlots() {
 	var monthDivs = document.querySelectorAll(".timelineYear .timelineMonth");
 	for (i = 0; i < monthDivs.length; i++) {
-		if(monthDivs[i].innerHTML == "") {
-			monthDivs[i].remove();
+		if(monthDivs[i].innerHTML == '<div class="timelineMonthNumber">Spring</div>' || 
+		   monthDivs[i].innerHTML == '<div class="timelineMonthNumber">Summer</div>' || 
+		   monthDivs[i].innerHTML == '<div class="timelineMonthNumber">Autumn</div>' || 
+		   monthDivs[i].innerHTML == '<div class="timelineMonthNumber">Winter</div>') {
+		   monthDivs[i].remove();
 		}
 	}
 }
