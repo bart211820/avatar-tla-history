@@ -181,8 +181,25 @@ function showPopUp() {
 	document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
 
 	var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 20px";
-	console.log(heightValue);
 	var topValue = activeEvent.positionY + "% + 20px";
 	var leftValue = activeEvent.positionX + "% - 15px";
-	document.getElementById("mapArrow").style = "height: calc(" + heightValue + "); margin-top: calc(" + topValue + "); margin-left: calc(" + leftValue + ");";
+	var arrowValue;
+	switch(selectedNation) {
+		case 0:
+			arrowValue = "F";
+			break;
+		case 1:
+			arrowValue = "E";
+			break;
+		case 2:
+			arrowValue = "A";
+			break;
+		case 3:
+			arrowValue = "W";
+			break;
+		default:
+			arrowValue = "";
+	}
+
+	document.getElementById("mapArrow").style = "background-image: url(img/arrowUp" + arrowValue + ".png);height: calc(" + heightValue + "); margin-top: calc(" + topValue + "); margin-left: calc(" + leftValue + ");";
 }
