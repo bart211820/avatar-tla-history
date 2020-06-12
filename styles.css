@@ -43,6 +43,15 @@ body{
 	cursor: pointer;
 }
 
+#mapArrow{
+	width: 50px;
+	position: absolute;
+	background-image: url(img/arrowUp.png);
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
 #infoBox{
 	float: left;
 	background-image: url(img/infoboxBackground.png);

@@ -5,10 +5,6 @@ $(document).ready(function(){
 	constructTimeLine();
 	loadTimeLine();
 
-	$("#worldMap").click(function() {
-		document.querySelector('#infoPopUp').className = "displayNone";
-	});
-
 	$("#buttonFire").click(function() {
 		selectedNation = 0;
 		loadTimeLine();
@@ -183,4 +179,10 @@ function showPopUp() {
 	var newText = '<h2>' + activeEvent.name + '</h2>' + activeEvent.description;
 	document.querySelector('#infoText').innerHTML = newText;
 	document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
+
+	var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 20px";
+	console.log(heightValue);
+	var topValue = activeEvent.positionY + "% + 20px";
+	var leftValue = activeEvent.positionX + "% - 15px";
+	document.getElementById("mapArrow").style = "height: calc(" + heightValue + "); margin-top: calc(" + topValue + "); margin-left: calc(" + leftValue + ");";
 }
