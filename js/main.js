@@ -14,24 +14,28 @@ $(document).ready(function(){
 		loadTimeLine();
 		changeLayoutColors("F");
 		hidePopUp();
+		removeMapPointers();
 	});
 	$("#buttonEarth").click(function() {
 		selectedNation = 1;
 		loadTimeLine();
 		changeLayoutColors("E");
 		hidePopUp();
+		removeMapPointers();
 	});
 	$("#buttonAir").click(function() {
 		selectedNation = 2;
 		loadTimeLine();
 		changeLayoutColors("A");
 		hidePopUp();
+		removeMapPointers();
 	});
 	$("#buttonWater").click(function() {
 		selectedNation = 3;
 		loadTimeLine();
 		changeLayoutColors("W");
 		hidePopUp();
+		removeMapPointers();
 	});
 });
 
@@ -167,10 +171,7 @@ function setActiveEvent(newEvent){
 }
 
 function showMapPointer() {
-	var currentPointers = document.querySelectorAll(".mapPointer");
-	for(i = 0; i < currentPointers.length; i++){
-		currentPointers[i].remove();
-	}
+	removeMapPointers();
 	var pointsToShow = [];
 	events[selectedNation].forEach((element) => {
 		if(activeEvent.year == element.year) {
@@ -183,34 +184,43 @@ function showMapPointer() {
 	giveMapPointersClickEvents();
 }
 
-function showPopUp() {
-	var newText = '<h2>' + activeEvent.name + '</h2>' + activeEvent.description;
-	document.querySelector('#infoText').innerHTML = newText;
-	document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
-	document.getElementById('mapArrow').className = "";
-
-	var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 20px";
-	var topValue = activeEvent.positionY + "% + 20px";
-	var leftValue = activeEvent.positionX + "% - 15px";
-	var arrowValue;
-	switch(selectedNation) {
-		case 0:
-			arrowValue = "F";
-			break;
-		case 1:
-			arrowValue = "E";
-			break;
-		case 2:
-			arrowValue = "A";
-			break;
-		case 3:
-			arrowValue = "W";
-			break;
-		default:
-			arrowValue = "";
+function removeMapPointers() {
+	var currentPointers = document.querySelectorAll(".mapPointer");
+	for(i = 0; i < currentPointers.length; i++){
+		currentPointers[i].remove();
 	}
+}
 
-	document.getElementById("mapArrow").style = "background-image: url(img/arrowUp" + arrowValue + ".png);height: calc(" + heightValue + "); margin-top: calc(" + topValue + "); margin-left: calc(" + leftValue + ");";
+function showPopUp() {
+	setTimeout(function(){
+		var newText = '<h2>' + activeEvent.name + '</h2>' + activeEvent.description;
+		document.querySelector('#infoText').innerHTML = newText;
+		document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
+		document.getElementById('mapArrow').className = "";
+
+		var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 20px";
+		var topValue = activeEvent.positionY + "% + 20px";
+		var leftValue = activeEvent.positionX + "% - 15px";
+		var arrowValue;
+		switch(selectedNation) {
+			case 0:
+				arrowValue = "F";
+				break;
+			case 1:
+				arrowValue = "E";
+				break;
+			case 2:
+				arrowValue = "A";
+				break;
+			case 3:
+				arrowValue = "W";
+				break;
+			default:
+				arrowValue = "";
+		}
+
+		document.getElementById("mapArrow").style = "background-image: url(img/arrowUp" + arrowValue + ".png);height: calc(" + heightValue + "); margin-top: calc(" + topValue + "); margin-left: calc(" + leftValue + ");";
+	}, 80);
 }
 
 function hidePopUp() {
