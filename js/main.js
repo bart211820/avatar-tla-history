@@ -4,6 +4,7 @@ var selectedNation = 0;
 $(document).ready(function(){
 	constructTimeLine();
 	loadTimeLine();
+	changeLayoutColors("F");
 
 	$("#worldMap").click(function() {
 		hidePopUp();
@@ -53,6 +54,7 @@ function changeLayoutColors(nationLetter) {
 			document.getElementById("buttonWater").style = "background-image: url(img/nationbuttonWd.png)";
 			document.getElementById("buttonEarth").style = "background-image: url(img/nationbuttonEd.png)";
 			document.getElementById("buttonAir").style = "background-image: url(img/nationbuttonAd.png)";
+			document.querySelector('body').className = "fireActive";
 			break;
 		case "E":
 			backgroundColor = "#ffffd3";
@@ -60,6 +62,7 @@ function changeLayoutColors(nationLetter) {
 			document.getElementById("buttonWater").style = "background-image: url(img/nationbuttonWd.png)";
 			document.getElementById("buttonEarth").style = "";
 			document.getElementById("buttonAir").style = "background-image: url(img/nationbuttonAd.png)";
+			document.querySelector('body').className = "earthActive";
 			break;
 		case "A":
 			backgroundColor = "#f2f2f2";
@@ -67,6 +70,7 @@ function changeLayoutColors(nationLetter) {
 			document.getElementById("buttonWater").style = "background-image: url(img/nationbuttonWd.png)";
 			document.getElementById("buttonEarth").style = "background-image: url(img/nationbuttonEd.png)";
 			document.getElementById("buttonAir").style = "";
+			document.querySelector('body').className = "airActive";
 			break;
 		case "W":
 			backgroundColor = "#e3f3ff";
@@ -74,6 +78,7 @@ function changeLayoutColors(nationLetter) {
 			document.getElementById("buttonWater").style = "";
 			document.getElementById("buttonEarth").style = "background-image: url(img/nationbuttonEd.png)";
 			document.getElementById("buttonAir").style = "background-image: url(img/nationbuttonAd.png)";
+			document.querySelector('body').className = "waterActive";
 			break;
 		default:
 			backgroundColor = "#E6C69D";
@@ -202,9 +207,9 @@ function showPopUp() {
 		document.querySelector('#infoImage').style = 'background-image: url(events/' + activeEvent.id + '.png)';
 		document.getElementById('mapArrow').className = "";
 
-		var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 20px";
-		var topValue = activeEvent.positionY + "% + 20px";
-		var leftValue = activeEvent.positionX + "% - 15px";
+		var heightValue = "65vh - (1923px * " + activeEvent.positionY / 100 + ") - 25px";
+		var topValue = activeEvent.positionY + "% + 25px";
+		var leftValue = activeEvent.positionX + "% - 10px";
 		var arrowValue;
 		switch(selectedNation) {
 			case 0:
