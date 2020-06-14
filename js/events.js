@@ -259,34 +259,34 @@ var eEvents = [
 		"name" : "Avatar Kyoshi dies", 
 		"year" : "82BG", 
 		"month" : "?", 
-		"description" : "Avatar Kyoshi dies at the age of 230.", 
+		"description" : "<p>Kyoshi was the Earth Kingdom-born Avatar preceding Avatar Roku of the Fire Nation. She died at the age of 230, making her the oldest confirmed human, and was also an exceptionally tall woman, towering over most people.</p><p>Trough her life she prevented the resurgence of the disastrous Yellow Neck uprising, prevented a civil war in the Fire Nation, defeated an attempted armed takeover of the Earth Kingdom by Chin the Conqueror, and founded Kyoshi Island and the Kyoshi Warriors to keep her adopted homeland safe.</p>", 
 		"positionX" : "40.4", 
 		"positionY" : "20.3"
 	},
 	{
 		"id" : "e2", 
-		"name" : "Fire Kingdom starts attacking the Earth Kingdom.", 
+		"name" : "attack on the Earth Kingdom", 
 		"year" : "40BG", 
 		"month" : "?", 
-		"description" : 'The Fire Nation starts claiming territories on the north-east side of the Earth Kingdom.', 
+		"description" : "<p>The new Fire Lord started expanding his territory by conquering small areas on the north west side of the Earth Kingdom. A large town named Yu Dao was one of the oldest of the Fire Nation colonies.</p><p>The Fire Nation easily conquered a number of cities and resource-rich areas to transform them into colonial possessions. The Earth Kingdom government proved unable to defend its territories.</p>", 
 		"positionX" : "31.9", 
 		"positionY" : "11.8"
 	},
 	{
 		"id" : "e3", 
-		"name" : "The Fire Colonies are returned to the Earth Kingdom", 
+		"name" : "Reclaimed lost land", 
 		"year" : "25BG", 
 		"month" : "?", 
-		"description" : "The Fire Colonies are returned to the Earth Kingdom by demand from Avatar Roku.", 
+		"description" : "<p>Only when Avatar Roku intervened was the Fire Lord’s expansion stopped and did the Earth Kingdom regain control of the South Western area. For a couple of years the world was at peace again.</p>", 
 		"positionX" : "31.9", 
 		"positionY" : "11.8"
 	},
 	{
 		"id" : "e4", 
-		"name" : "The beginning of the Great War", 
+		"name" : "The beginning of the War", 
 		"year" : "11BG", 
 		"month" : "?", 
-		"description" : "The Fire Nation reclaims the previously returned Fire Colonies.", 
+		"description" : "<p>After Roku’s death, Fire Lord Sozin again started attacking the Earth Kingdom and claiming new territory. Starting by taking back the Colonies he had to give up over 20 year prior.</p><p>This was the beginning of the Hundred Year War.</p>", 
 		"positionX" : "31.9", 
 		"positionY" : "11.8"
 	},
@@ -295,34 +295,34 @@ var eEvents = [
 		"name" : "Battle of Han Tui", 
 		"year" : "10AG", 
 		"month" : "?", 
-		"description" : "Although the defending earthbenders outnumbered the Fire Nation Army, Sozin was able to use his enemies' downwind position and recent drought to burn Han Tui's defenses in minutes.", 
+		"description" : "<p>One of Fire Lord Sozin’s lesser-known military accomplishments during this period was the Battle of Han Tui, which was applauded as a magnificent display of skill and military cunning.</p><p>It is not known exactly when and where this battle took place but it was stated that even though the defending earthbenders outnumbered the Fire Nation Army, Sozin was able to use his enemies downwind position and recent drought to burn Han Tui's defenses to the ground in minutes.</p>", 
 		"positionX" : "40", 
 		"positionY" : "5.6"
 	},
 	{
 		"id" : "e6", 
-		"name" : "Kuei becomes Earth King.", 
+		"name" : "Kuei becomes Earth King", 
 		"year" : "79AG", 
 		"month" : "?", 
-		"description" : "The 51st Earth King dies and Kuei became one of the youngest Earth Kings in history at the age of 4.", 
+		"description" : "<p>Ascending the throne at age four following his father's death, Kuei became one of the youngest Earth Kings. However, due to the monarch's youth, it was deemed appropriate to appoint the minister Long Feng as regent, a position from which he quickly assumed total control over Ba Sing Se.</p><p>As such, for much of his reign the Earth King was a mere puppet of Long Feng, relying totally on his advice and unable to make simple decisions. The King had no knowledge of the Hundred Year War or anything beyond the confines of the Earth Kingdom Royal Palace.</p>", 
 		"positionX" : "49.4", 
 		"positionY" : "8.9"
 	},
 	{
 		"id" : "e7", 
-		"name" : "Ba Sing Se gets attacked by the Fire Nation", 
+		"name" : "Ba Sing Se is attacked", 
 		"year" : "94AG", 
 		"month" : "autumn", 
-		"description" : "Capital of the Earth Kingdom, Ba Sing Se gets attacked by the Fire Nation. Lead by Prince Iroh they are able to break through the first wall.", 
+		"description" : "<p>The capital of the Earth Kingdom Ba Sing Se was attacked by the Fire Nation.</p><p>The troops were led by Prince Iroh who was acting on a vision he had witnessed in his youth which told him he would capture the Earth Kingdom capital of Ba Sing Se. they besieged the great city for six hundred days, and successfully breached the Outer Wall – a feat that had never been equalled before.</p>", 
 		"positionX" : "49.4", 
 		"positionY" : "9.8"
 	},
 	{
 		"id" : "e8", 
-		"name" : "The Fire nations retreats from Ba Sing Se.", 
+		"name" : "Fire nations leaves Ba Sing Se", 
 		"year" : "95AG", 
 		"month" : "?", 
-		"description" : "The Fire Nation stops their attack on Ba Sing Se and Prince Iroh and his troops return home.", 
+		"description" : "<p>The Fire Nation retreats from Ba Sing Se.</p><p>Unbeknownst to the Earth Kingdom, this was only because Prince Lu Ten had died in the battle.</p><p>The Outer Wall was repaired and the city returned to their normal state.</p>", 
 		"positionX" : "49.4", 
 		"positionY" : "9.8"
 	},
@@ -331,7 +331,7 @@ var eEvents = [
 		"name" : "Wan Shi Tong's Library disappears", 
 		"year" : "99AG", 
 		"month" : "?", 
-		"description" : "Wan Shi Tong's Library disappears from the desert.", 
+		"description" : "<p>Wan Shi Tong, the owner of Wan Shi Tong’s Library got tired of people entering the library in the hope of finding information help them fight and kill their enemies. Therefor he completely buried the library in order to take his knowledge back.</p>", 
 		"positionX" : "47.5", 
 		"positionY" : "16.5"
 	},
@@ -340,16 +340,16 @@ var eEvents = [
 		"name" : "Fire nation conquers Omashu", 
 		"year" : "99AG", 
 		"month" : "?", 
-		"description" : "The Fire nation conquers Omashu, one of the last remaining strongholds of the Earth Kingdom.", 
+		"description" : "<p>Omashu is the second largest city in the Earth Kingdom and the capital of one of its states. Surpassed in size and importance only by Ba Sing Se, Omashu was one of the last great strongholds of the Earth Kingdom during the Hundred Year War, and it continued to supply the Earth Kingdom Army with troops and supplies until it was taken by Fire Nation forces in the closing months of the great war.</p><p>Later Omashu was seized by Fire Nation forces. King Bumi, always pragmatic and enigmatic, surrendered the city to the Fire Nation forces without a fight. The city was rechristened New Ozai in honor of Fire Lord Ozai by his daughter, Princess Azula, during the following spring.</p><p>Now Ba Sing Se was the only remaining stronghold of the Earth Kingdom.</p>", 
 		"positionX" : "43.5", 
 		"positionY" : "17.9"
 	},
 	{
 		"id" : "e11", 
-		"name" : "Fire Princess Azula conquers Ba Sing Se and becomes the new Earth King", 
+		"name" : "Azula becomes Earth King", 
 		"year" : "100AG", 
 		"month" : "summer", 
-		"description" : "Fire princess Azula invades Ba Sing Se, disguised as a friend of the Avatar. She manages to defeat Kuei and becomes the new Earth King.", 
+		"description" : "<p>After her initial failure to breach the strong outer wall of Ba Sing Se with a Fire Nation drill, Fire Princess Azula came in contact with the Kyoshi Warriors, who were swiftly defeated by her and her two friends and taken into custody.</p><p>Now disguising themselves as these Kyoshi Warriors, Azula and 2 of her friends entered Ba Sing Se and successfully plotted a conspiracy and she personally captured the monarch, Earth King Kuei.</p><p>Kuei managed to escape alive but Azula became the new Earth King and took control of Ba Sing Se.</p>", 
 		"positionX" : "49.7", 
 		"positionY" : "8.9"
 	},
@@ -358,34 +358,34 @@ var eEvents = [
 		"name" : "Attack during the eclipse", 
 		"year" : "100AG", 
 		"month" : "autumn", 
-		"description" : "The remainders of the Water Tribe and Earth Kingdom attack the capital of the Fire Nation during an eclipse, but eventually fail to win the battle.", 
+		"description" : "<p>The Day of Black Sun is a recurring celestial event during which the sun is entirely blocked out by the moon, rendering all firebenders powerless.</p><p>On the Day of Black Sun that occurred in 100 AG, the Fire Nation Capital was invaded, with the objective of quickly defeating the Fire Lord and ending the Hundred Year War. However, the Fire Nation became aware of the imminent attack when Azula had infiltrated Ba Sing Se and were informed about the plans. Due to this mistake, the Fire Nation was able to anticipate and prepare for the assault. The invasion force managed to reach the Fire Nation Royal Palace but were unable to escape after the eclipse ended, leading to the detainment of many participants.</p>", 
 		"positionX" : "25.2", 
 		"positionY" : "15.6"
 	},
 	{
 		"id" : "e13", 
-		"name" : "King Bumi re-conquers Omashu during the eclipse", 
+		"name" : "Bumi re-conquers Omashu", 
 		"year" : "100AG", 
 		"month" : "autumn", 
-		"description" : "King Bumi single handedly conquers Omashu during the eclipse and returns it to the Earth Kingdom.", 
+		"description" : "<p>During the Day of Black Sun, the imprisoned Bumi saw that the time to liberate the city and release himself from imprisonment had come. Following that, he proceeded to defeat the powerless firebenders and single-handedly reclaim his city from the Fire Nation.</p><p>This was vital to the eventual liberation of the Earth Kingdom from the Fire Nation.</p>", 
 		"positionX" : "43.5", 
 		"positionY" : "17.9"
 	},
 	{
 		"id" : "e14", 
-		"name" : "The Order of the White Lotus takes back Ba Sing Se", 
+		"name" : "Iroh takes back Ba Sing Se", 
 		"year" : "100AG", 
 		"month" : "winter", 
-		"description" : "Iroh and the Order of the White Lotus attack back Ba Sing Se and return it to the Earth Kingdom.", 
+		"description" : "<p>The secretive Order of the White Lotus, led by Grand Lotus Iroh, penetrated Ba Sing Se and fought against occupying Fire Nation forces in order to free the city in the name of the Earth Kingdom.</p><p>The large Fire Nation garrison outnumbered the small Order, and the arrival of Sozin's Comet increased their power. However, the Order consisted of the most powerful benders and fighters in the world, including some firebenders of their own. This meant that the Order had a considerable tactical advantage, ultimately leading to their victory.</p>", 
 		"positionX" : "49.4", 
 		"positionY" : "8.9"
 	},
 	{
 		"id" : "e15", 
-		"name" : "The avatar returns and ends the great war", 
+		"name" : "Avatar Aang ends the war", 
 		"year" : "100AG", 
 		"month" : "winter", 
-		"description" : "The avatar returns and defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
+		"description" : "<p>The avatar returned and went on to defeat the Fire Lord by taking away his firebending with the ability of energybending after a huge fight.</p><p>Now that Fire Lord Ozai was defeated his son became the new Fire Lord and with Aang’s help they restored peace to the world.</p>", 
 		"positionX" : "39", 
 		"positionY" : "14.7"
 	}
