@@ -1,5 +1,6 @@
 var activeEvent;
 var selectedNation = 0;
+var infoState = 0;
 
 $(document).ready(function(){
 	constructTimeLine();
@@ -37,6 +38,14 @@ $(document).ready(function(){
 		changeLayoutColors("W");
 		hidePopUp();
 		removeMapPointers();
+	});
+
+	$("#closeIntro").click(function() {
+		if(infoState == 0) {
+			hideIntro();
+		} else {
+			openIntro();
+		}
 	});
 });
 
@@ -236,4 +245,14 @@ function hidePopUp() {
 	document.querySelector('#infoText').innerHTML = "";
 	document.querySelector('#infoImage').style = '';
 	document.getElementById('mapArrow').className = "displayNone";
+}
+
+function hideIntro(){
+	document.getElementById('introContainer').style = "animation: AcloseIntroContainer 1s forwards;";
+	infoState = 1;
+}
+
+function openIntro(){
+	document.getElementById('introContainer').style = "animation: AopenIntroContainer 1s forwards;";
+	infoState = 0;
 }
