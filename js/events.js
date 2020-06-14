@@ -397,7 +397,7 @@ var aEvents = [
 		"name" : "Avatar Aang was born", 
 		"year" : "12BG", 
 		"month" : "?", 
-		"description" : "The new avatar named Aang was born into the Air Nomads.", 
+		"description" : "<p>After the dead of the previous avatar, Roku from the Fire Nation, the spirit of the avatar reincarnated into Aang from the Air Nomads. This however, was not known until he did a test as an infant to identify who was the Avatar.</p><p>Aang was always able to excel at any new bending moves he learned; at the age of six, he was a better airbender than children twice his age, and by the age of ten, Aang had proven himself to be better than his own teachers.</p><p>He earned airbending tattoos and the status of an airbending master by the age of twelve for exhibiting prodigious talent with his native element and with his invention of the air scooter, making him the youngest airbending master in Air Nomad history.</p>", 
 		"positionX" : "35.8", 
 		"positionY" : "23.7"
 	},
@@ -406,7 +406,7 @@ var aEvents = [
 		"name" : "Avatar Aang disappears", 
 		"year" : "1BG", 
 		"month" : "?", 
-		"description" : "Aang was ordered to leave the Southern Air Temple. Afraid and confused, the young airbender ran away with his flying bison, Appa", 
+		"description" : "<p>Aang himself wouldn’t hear that he was the avatar until his twelfth birthday. Usually the avatar is only told about their status at the age of 16. But due to the signs of a possible war approaching, Aang was told about his status earlier.</p><p>Aang felt burdened by his status as the other children refused to play with him anymore and he came to spend more time practicing airbending with the monks. Aang also later discovered that he would be sent to the Eastern Air Temple in order to complete his airbending training far away from his master Monk Gyatso, whom the other monks thought was too soft on him.</p><p>Afraid and confused, the young airbender ran away with his flying bison, Appa. They flew away and were never seen by the Air Nomads again.</p>", 
 		"positionX" : "35.8", 
 		"positionY" : "23.7"
 	},
@@ -415,16 +415,16 @@ var aEvents = [
 		"name" : "Air Nomads genocide", 
 		"year" : "0AG", 
 		"month" : "summer", 
-		"description" : "the Fire Nation attacked the Air Temples in a preemptive strike and exterminated the airbending population though failed to track down the Avatar.", 
+		"description" : "<p>Knowing that the next avatar would be born as an Air Nomad, Fire Lord Sozin ordered a grand scale attack on the Air Nomads. Using the power of a comet (later named, Sozin’s Comet) to increase the Fire Nation’s powers during the Air Nomad Genocide.</p><p>The Air Nomad Genocide was a mass slaughter committed by the Fire Nation that resulted in the near eradication of the Air Nomads and the fauna that lived within their territories and air temples. The only human survivor of the initial attack and its aftermath was Avatar Aang, who was ironically the prime target.</p><p>Almost all other Air Nomads would die this day however.</p>", 
 		"positionX" : "35.8", 
 		"positionY" : "23.7"
 	},
 	{
 		"id" : "a4", 
-		"name" : "The last air bender returns and ends the great war", 
+		"name" : "Avatar Aang ends the war", 
 		"year" : "100AG", 
 		"month" : "winter", 
-		"description" : "The last air bender returns and defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
+		"description" : "<p>The avatar returned after learning the 4 elements hidden hidden from the public and the Fire Nation. He went on to defeat the Fire Lord by taking away his firebending with the ability of energybending after a huge fight.</p><p>Now that Fire Lord Ozai was defeated together with his fire bending master and son of Ozai they restored peace to the world.</p>", 
 		"positionX" : "39", 
 		"positionY" : "14.7"
 	}
