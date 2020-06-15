@@ -160,6 +160,20 @@ body{
 	width: 62%;
 	float: left;
 }
+#infoText::-webkit-scrollbar {
+  width: 5px;
+}
+#infoText::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #E6C69D;
+}
+#infoText::-webkit-scrollbar-thumb {
+  background: #C1A178; 
+  border-radius: 10px;
+}
+#infoText::-webkit-scrollbar-thumb:hover {
+  background: #7D612F; 
+}
 #infoText h2{
 	font-size: 35px;
 	margin-bottom: 10px;
@@ -176,6 +190,18 @@ body{
 	float: right;
 	width: 36%;
 	height: 83%;
+}
+.waterActive #infoImage{
+	background-image: url(img/backgroundWater.png);
+}
+.earthActive #infoImage{
+	background-image: url(img/backgroundEarth.png);
+}
+.fireActive #infoImage{
+	background-image: url(img/backgroundFire.png);
+}
+.airActive #infoImage{
+	background-image: url(img/backgroundAir.png);
 }
 
 #buttonsHolder{
