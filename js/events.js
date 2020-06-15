@@ -202,7 +202,7 @@ var fEvents = [
 		"name" : "Attack on Northern Water Tribe", 
 		"year" : "100AG", 
 		"month" : "spring", 
-		"description" : "<p>he led a large invasion force in a siege of the North Pole, for the dual purposes of capturing the Avatar and destroying the Northern Water Tribe. Fully aware that the waterbenders drew their powers from the moon at night, Zhao attacked during the day, capitalizing on the weakened state of the waterbenders.</p><p>On the second day of the siege, Zhao's forces managed to penetrate the city's walls. Having gained this knowledge about the Ocean and Moon Spirits, he used the assault of his troops as a distraction while he led his men to the Spirit Oasis and captured Tui, the Moon Spirit. This caused both the moon and the sky to turn red, while the waterbending warriors lost their bending abilities.</p><p>The slaying of the Moon aroused the anger of La, the Ocean Spirit, who merged with Avatar Aang's Spirit and used incredibly powerful waterbending together to vanquish most, if not all, of Zhao's fleet.</p>", 
+		"description" : "<p>Admiral Zhao led a large invasion force in a siege of the North Pole, for the dual purposes of capturing the Avatar and destroying the Northern Water Tribe. Fully aware that the waterbenders drew their powers from the moon at night, Zhao attacked during the day, capitalizing on the weakened state of the waterbenders.</p><p>On the second day of the siege, Zhao's forces managed to penetrate the city's walls. Having gained this knowledge about the Ocean and Moon Spirits, he used the assault of his troops as a distraction while he led his men to the Spirit Oasis and captured Tui, the Moon Spirit. This caused both the moon and the sky to turn red, while the waterbending warriors lost their bending abilities.</p><p>The slaying of the Moon aroused the anger of La, the Ocean Spirit, who merged with Avatar Aang's Spirit and used incredibly powerful waterbending together to vanquish most, if not all, of Zhao's fleet.</p>", 
 		"positionX" : "39", 
 		"positionY" : "3"
 	},
@@ -433,10 +433,10 @@ var aEvents = [
 var wEvents = [
 	{
 		"id" : "w1", 
-		"name" : "Northern Water Tribe is attacked by the Fire Nation", 
+		"name" : "Attack on Northern Water tribe", 
 		"year" : "2AG", 
 		"month" : "?", 
-		"description" : "The Fire Nation starts attacking the Northern Water Tribe.", 
+		"description" : "<p>Soon after the Air Nomad genocide the Northern Water Tribe started to get attacked by the Fire Nation as well. But the Water Tribe’s defences were to strong for the Fire Nation to break through at this point.</p>", 
 		"positionX" : "39", 
 		"positionY" : "3"
 	},
@@ -445,25 +445,25 @@ var wEvents = [
 		"name" : "Wall of Ice is constructed", 
 		"year" : "3AG", 
 		"month" : "?", 
-		"description" : "The northern water tribe constructs a wall of ice around city for protection", 
+		"description" : "<p>When the Fire Nation declared war on the Water Tribes, a thick wall of ice was erected at the mouth of the Northern Water Tribe as a means to keep the Fire Nation out of the Northern Water Tribe. When the War began, the Northern Water Tribe became increasingly isolated, cutting off most of its contact with the outside world.</p>", 
 		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
 		"id" : "w3", 
-		"name" : "The Fire nations halts their attack on the Northern water tribe", 
+		"name" : "Peace at Northern water tribe", 
 		"year" : "15AG", 
 		"month" : "?", 
-		"description" : "The defences of the Northern Water Tribe are too strong and the Fire nation stops trying to invade.", 
+		"description" : "<p>The Fire Nation tried to take control over the Northern Water Tribe for many years but eventually gave up after many failed attempts. After a while, the attacks ceased entirely.</p>", 
 		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
 		"id" : "w4", 
-		"name" : "Fire Nations starts attacking the Southern Water tribe", 
+		"name" : "Attacks on Southern Water tribe", 
 		"year" : "40AG", 
 		"month" : "?", 
-		"description" : "The Fire Nation begins attacking the Southern Water Tribe and captured or killed as many Southern waterbenders as they could.", 
+		"description" : "<p>With the outbreak of the Hundred Year War in 0 AG, the Southern Water Tribe took up arms against the Fire Nation, though the tribe itself remained rather unscathed until around 40 AG.</p><p>By then, Fire Lord Azulon began to perceive the South as a threat for his expansion and ordered his navy to annihilate the tribe's military strength. Consequently, the Fire Navy employed raiding forces of firebenders and cruisers in order to capture or kill as many Southern waterbenders as they could. By doing so, the Fire Nation hoped to destroy all resistance in the South.</p><p>Despite being outnumbered, the waterbenders and nonbending warriors were able to defend themselves against the raids through fierce resistance, boasting minor victories from time to time.</p>", 
 		"positionX" : "35.7", 
 		"positionY" : "27.6"
 	},
@@ -472,7 +472,7 @@ var wEvents = [
 		"name" : "Fall of the Southern Water tribe", 
 		"year" : "45AG", 
 		"month" : "?", 
-		"description" : "Southern Water tribe capital city was largely abandoned, and connection with the northern tribe was lost.", 
+		"description" : "<p>Following the widespread destruction and loss of life that the raids had caused, tribal unity declined and the capital city was largely abandoned. The small chiefdoms and tribes that formed the Southern confederation divided and scattered throughout the South Pole and all contact to the Northern Water Tribe was lost.</p><p>Many Southerners would blame the North for effectively abandoning them to the Fire Nation and eventually sought to aid the Earth Kingdom in their deepest crisis.</p>", 
 		"positionX" : "35.7", 
 		"positionY" : "27.6"
 	},
@@ -481,16 +481,16 @@ var wEvents = [
 		"name" : "Princess Yue is born", 
 		"year" : "84AG", 
 		"month" : "?", 
-		"description" : "Princess of the Northern water tribe Yue is born. She was greatly ill however so The Moon Spirit gifted her with part of its own life force, saving her life.", 
+		"description" : "<p>Yue was born in Northern Water Tribe to Chief Arnook and his wife, the daughter of a tribal chieftain. She had an unknown illness as an infant, being still and quiet as though asleep, so her parents feared she would die.</p><p>Because of her illness, the Moon Spirit gifted her with part of its own life force, saving her life and turning her hair white as a side effect. Thus, her parents named her Yue, for the moon.</p>", 
 		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
 		"id" : "w7", 
-		"name" : "The proclaimed last southern water bender is killed by commander Yon Rha", 
+		"name" : "Last Southern Water bender dies", 
 		"year" : "94AG", 
 		"month" : "summer", 
-		"description" : "Commander Yan Rha kills Kya from the Southern Water Tribe, the proclaimed last southern water bender.", 
+		"description" : "<p>In 94 AG, when the Southern Raiders attacked the Southern Water Tribe, here a woman named Kya was found in her home by the Raiders' leader, Yon Rha, who interrogated her about the identity of the last Southern waterbender.</p><p>Desperate to protect her daughter, the last waterbender he was after, Kya told him that she was the one they were looking for. When she declared that she was ready to be taken as their prisoner, Yon Rha told her that he was not to take any prisoners, and she was killed by him instead.</p><p>The Fire Nation now believed to have exterminated all water benders from the Southern Water Tribe. Despite the actual last water bender was still alive as an 8 year old girl named Katara.</p>", 
 		"positionX" : "35.7", 
 		"positionY" : "27.6"
 	},
@@ -499,34 +499,34 @@ var wEvents = [
 		"name" : "The lost Avatar is found", 
 		"year" : "99AG", 
 		"month" : "?", 
-		"description" : "2 children from the Southern Water Tribe discover avatar Aang trapped in an iceberg.", 
+		"description" : "<p>In 99 AG, 2 children from the Southern Water Tribe discovered Avatar Aang in a block of ice, which resulted in Fire Prince Zuko raiding their village. The 2 young tribe members and the avatar subsequently left the village in an attempt to help the Avatar learn the 3 other elements and end the war.</p>", 
 		"positionX" : "36.7", 
 		"positionY" : "27.4"
 	},
 	{
 		"id" : "w9", 
-		"name" : "Avatar Aang visits the Northern Water tribe", 
+		"name" : "Avatar Aang in the North", 
 		"year" : "100AG", 
 		"month" : "spring", 
-		"description" : "Avatar Aang visits the Northern Water tribe in search for a water bending teacher.", 
+		"description" : "<p>Avatar Aang visited the Northern Water Tribe in order to better master the art of water bending. He had however, already learned a lot about water bending from the last remaining water bender from the south, his friend Katara.</p>", 
 		"positionX" : "39", 
 		"positionY" : "3"
 	},
 	{
 		"id" : "w10", 
-		"name" : "Princess Yue dies and is reincarnated as the moon spirit", 
+		"name" : "Princess Yue dies", 
 		"year" : "100AG", 
 		"month" : "summer", 
-		"description" : "The Moon spirit is killed and in order to save it Yue gives her life and reincarnates as the new moon spirit.", 
+		"description" : "<p>When Admiral Zhao launched a massive attack on the Northern Water Tribe on behalf of the Fire Nation. He managed to kill the Moon Spirit Tui, which caused the spiritual equivalent of a lunar eclipse and removing the power of all waterbenders. The Moon Spirit was killed shortly afterwards.</p><p>Tui's death lead to a lapse in spiritual balance, and waterbending ceased to exist. But because Yue held some of Tui's life energy inside her, she had the choice and responsibility to return this energy to Tui, thus sacrificing herself in order to resurrect it.</p>", 
 		"positionX" : "38.6", 
 		"positionY" : "2.7"
 	},
 	{
 		"id" : "w11", 
-		"name" : "Admiral Zhao attacks the Northern Water tribe", 
+		"name" : "Attack on Northern Water tribe", 
 		"year" : "100AG", 
 		"month" : "summer", 
-		"description" : "Admiral Zhao attacks the Northern Water tribe but avatar Aang protects it with the help of the Ocean Spirit.", 
+		"description" : "<p>Admiral Zhao led a large invasion force in a siege of the North Pole, for the dual purposes of capturing the Avatar and destroying the Northern Water Tribe. Fully aware that the waterbenders drew their powers from the moon at night, Zhao attacked during the day, capitalizing on the weakened state of the waterbenders.</p><p>On the second day of the siege, Zhao's forces managed to penetrate the city's walls. Having gained this knowledge about the Ocean and Moon Spirits, he used the assault of his troops as a distraction while he led his men to the Spirit Oasis and captured Tui, the Moon Spirit. This caused both the moon and the sky to turn red, while the waterbending warriors lost their bending abilities.</p><p>The slaying of the Moon aroused the anger of La, the Ocean Spirit, who merged with Avatar Aang's Spirit and used incredibly powerful waterbending together to vanquish most, if not all, of Zhao's fleet.</p>", 
 		"positionX" : "40", 
 		"positionY" : "3.6"
 	},
@@ -535,7 +535,7 @@ var wEvents = [
 		"name" : "Attack during the eclipse", 
 		"year" : "100AG", 
 		"month" : "autumn", 
-		"description" : "The remainders of the Water Tribe and Earth Kingdom attack the capital of the Fire Nation during an eclipse, but eventually fail to win the battle.", 
+		"description" : "<p>The Day of Black Sun is a recurring celestial event during which the sun is entirely blocked out by the moon, rendering all firebenders powerless.</p><p>On the Day of Black Sun that occurred in 100 AG, the Fire Nation Capital was invaded, with the objective of quickly defeating the Fire Lord and ending the Hundred Year War. However, the Fire Nation became aware of the imminent attack when Azula had infiltrated Ba Sing Se and were informed about the plans. Due to this mistake, the Fire Nation was able to anticipate and prepare for the assault. The invasion force managed to reach the Fire Nation Royal Palace but were unable to escape after the eclipse ended, leading to the detainment of many participants.</p>", 
 		"positionX" : "25.2", 
 		"positionY" : "15.6"
 	},
@@ -544,7 +544,7 @@ var wEvents = [
 		"name" : "Avatar Aang ends the war", 
 		"year" : "100AG", 
 		"month" : "winter", 
-		"description" : "The avatar defeats Fire Lord Ozai. He takes away his fire bending powers and end the Great War.", 
+		"description" : "<p>The avatar returned and went on to defeat the Fire Lord by taking away his firebending with the ability of energybending after a huge fight.</p><p>Now that Fire Lord Ozai was defeated his son became the new Fire Lord and with Aang’s help they restored peace to the world.</p>", 
 		"positionX" : "39", 
 		"positionY" : "14.7"
 	}
