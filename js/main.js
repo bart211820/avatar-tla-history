@@ -6,6 +6,7 @@ $(document).ready(function(){
 	constructTimeLine();
 	loadTimeLine();
 	changeLayoutColors("F");
+	changeSizeValues();
 
 	$("#worldMap").click(function() {
 		hidePopUp();
@@ -255,4 +256,13 @@ function hideIntro(){
 function openIntro(){
 	document.getElementById('introContainer').style = "animation: AopenIntroContainer 1s forwards;";
 	infoState = 0;
+}
+
+$(window).resize(changeSizeValues);
+
+function changeSizeValues(){
+	var vensterWidth = $(window).width();
+	var vensterHeight = $(window).height();
+
+	document.getElementById('sizeValueDisplay').innerHTML = "The current size is " + vensterWidth + " x " + vensterHeight + "px.";
 }

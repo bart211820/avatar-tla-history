@@ -19,6 +19,24 @@ body{
 	display: none;
 }
 
+#resolutionWarning{
+	position: absolute;
+	background-color: #F8D7DA;
+	margin-left: 53vw;
+    margin-top: 2vh;
+    width: 26vw;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: block;
+}
+
+#resolutionWarning p{
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
 #leftContainer{
 	float: left;
 	width: 80%;
@@ -310,4 +328,10 @@ body{
 .timeLineEvent p{
 	font-size: 2vw;
 	text-align: center;
+}
+
+@media only screen and (width: 1920px) and (height: 937px) {
+  #resolutionWarning {
+    display: none;
+  }
 }
