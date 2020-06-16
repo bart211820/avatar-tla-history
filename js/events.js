@@ -13,7 +13,7 @@ var fEvents = [
 		"name" : "Fire Prince Sozin is born", 
 		"year" : "82BG", 
 		"month" : "?", 
-		"description" : "<p>The current fire lord got a son and he became the new crown prince, his name was Sozin.</p><p>In his youth, Prince Sozin was best friends with Avatar Roku, and the two of them often celebrated their shared birthday together. As they were both firebenders, they regularly fought duels against one another for fun, and to test and strengthen their skills.</p><p>Sozin would later start the Hundred Year War as he wished to share the great period of great prosperity and wealth the fire nation was going through. He wanted to expand the empire, to make a brighter future possible.</p>", 
+		"description" : "<p>The current fire lord had a son and he became the new crown prince, his name was Sozin.</p><p>In his youth, Prince Sozin was best friends with Avatar Roku, and the two of them often celebrated their shared birthday together. As they were both firebenders, they regularly fought duels against one another for fun, and to test and strengthen their skills.</p><p>Sozin would later start the Hundred Year War as he wished to share the great period of great prosperity and wealth the fire nation was going through. He wanted to expand the empire, to make a brighter future possible.</p>", 
 		"positionX" : "25.2", 
 		"positionY" : "15.6"
 	},
