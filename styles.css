@@ -243,22 +243,22 @@ body{
 #buttonWater{
 	margin-left: 32px;
 	margin-top: 20px;
-	background-image: url(img/nationbuttonW.png);
+	background-image: url(img/nationbuttonW.gif);
 }
 #buttonEarth{
 	margin-left: 52px;
 	margin-top: 20px;
-	background-image: url(img/nationbuttonE.png);
+	background-image: url(img/nationbuttonE.gif);
 }
 #buttonFire{
 	margin-left: 32px;
 	margin-top: 20px;
-	background-image: url(img/nationbuttonF.png);
+	background-image: url(img/nationbuttonF.gif);
 }
 #buttonAir{
 	margin-left: 52px;
 	margin-top: 20px;
-	background-image: url(img/nationbuttonA.png);
+	background-image: url(img/nationbuttonA.gif);
 }
 
 #timeline{
