@@ -56,7 +56,7 @@ body{
 	position: absolute;
 	width: 16vw;
 	height: 15vh;
-	background-color: rgba(230, 198, 157, 0.7);
+	background-color: rgba(186, 194, 255, 0.7);
 	background-image: url(img/logo.png);
 	background-size: 80% 80%;
 	background-position: 57% 40%;
@@ -70,7 +70,7 @@ body{
 	position: absolute;
 	width: 16vw;
 	height: 47vh;
-	background-color: rgba(230, 198, 157, 0.7);
+	background-color: rgba(186, 194, 255, 0.7);
 	margin-left: 1vh;
 	margin-top: 17vh;
 	border-radius: 30px;
@@ -236,8 +236,8 @@ body{
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	width: 134px;
-	height: 134px;
+	width: 35%;
+    height: 41%;
 	cursor: pointer;
 }
 #buttonWater{
